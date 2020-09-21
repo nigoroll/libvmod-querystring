@@ -7,7 +7,7 @@
 set -e
 set -u
 
-VERSION=6.0.0
+VERSION=6.0.6
 BRANCH=${VARNISH_BRANCH:-}
 
 if [ -n "${BRANCH}" ]

@@ -4,7 +4,7 @@
 # This file is in the public domain.
 
 sudo: required
-dist: xenial
+dist: focal
 
 language: c
 
@@ -20,6 +20,7 @@ addons:
     - python3-docutils
     - python3-sphinx
     - sbuild
+    - schroot
 
 compiler:
   - clang
